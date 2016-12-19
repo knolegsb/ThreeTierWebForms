@@ -203,6 +203,7 @@
             // 
             this.tbConfirmPassword.Location = new System.Drawing.Point(223, 385);
             this.tbConfirmPassword.Name = "tbConfirmPassword";
+            this.tbConfirmPassword.PasswordChar = '*';
             this.tbConfirmPassword.Size = new System.Drawing.Size(200, 20);
             this.tbConfirmPassword.TabIndex = 16;
             // 
@@ -214,6 +215,7 @@
             this.tbRegistration.TabIndex = 17;
             this.tbRegistration.Text = "Register";
             this.tbRegistration.UseVisualStyleBackColor = true;
+            this.tbRegistration.Click += new System.EventHandler(this.tbRegistration_Click);
             // 
             // Form1
             // 
